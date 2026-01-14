@@ -15,4 +15,5 @@ if (process == null)
 
 await process.WaitForExitAsync();
 
+Console.WriteLine("ATLauncher has exited. Press any key to close this window...");
 Console.ReadKey();
